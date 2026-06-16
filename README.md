@@ -152,7 +152,7 @@ linkedin-clerk/
 
 ## 🌐 Connect with Me
 
-I am a Data Analytics professional passionate about turning complex data into visual stories. If you have questions about this project or want to discuss Data Analytics, Business Intelligence, or Automation—let's connect!
+I am a Data Analytics professional passionate about turning complex data into visual stories. If you have questions about this project or want to discuss Data Analytics, Business Intelligence, or Automation let's connect!
 
 <p align="left">
   <a href="https://www.linkedin.com/in/adityasrinish/" target="_blank">
