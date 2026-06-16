@@ -1,6 +1,6 @@
 # 🔍 LinkedIn Clerk
 
-> A two-part automated pipeline that scrapes LinkedIn profiles and converts raw data into a complete, ready-to-execute content strategy — no browser, no login, no manual work.
+> A two-part automated pipeline that scrapes LinkedIn profiles and converts raw data into a complete, ready-to-execute content strategy no browser, no login, no manual work.
 
 ---
 
@@ -8,7 +8,7 @@
 
 LinkedIn Clerk is a scrape-to-strategy system built for founders, creators, and personal brand builders who want data-backed insight into what's actually working in their niche on LinkedIn.
 
-You provide up to 10 profile URLs. The pipeline handles everything else — scraping, processing, analyzing, and producing a full content playbook tailored to your niche and goal.
+You provide up to 10 profile URLs. The pipeline handles everything else scraping, processing, analyzing, and producing a full content playbook tailored to your niche and goal.
 
 **Input:** Up to 10 LinkedIn profile URLs + your niche + your goal  
 **Output:** Competitor intelligence report + a personalized LinkedIn content strategy with 20 hooks and 10 post ideas
@@ -20,10 +20,10 @@ You provide up to 10 profile URLs. The pipeline handles everything else — scra
 The system is split into two independent parts:
 
 ```
-[ You ] ──► [ v10 Scraper ] ──► [ RAW DATA CONTAINER ] ──► [ v07 Analysis ] ──► [ Strategy Reports ]
+[ You ] ──► [ v08 Scraper ] ──► [ RAW DATA CONTAINER ] ──► [ v05 Analysis ] ──► [ Strategy Reports ]
 ```
 
-### Part 1 — Scraper (v10)
+### Part 1 — Scraper (v08)
 
 Calls two Apify actors via `bash` and `curl`:
 - `harvestapi/linkedin-profile-posts` → scrapes all recent posts with full text and engagement data
@@ -42,27 +42,27 @@ Merges both outputs into a single structured file: `LINKEDIN_RAW_DATA_CONTAINER.
 
 ---
 
-### Part 2 — Analysis Pipeline (v07)
+### Part 2 - Analysis Pipeline (v05)
 
 Reads the raw data container and runs deep analysis across multiple windows.
 
 Produces three output documents:
 
-#### `REPORT_1.md` — Competitive Intelligence
+#### `REPORT_1.md` - Competitive Intelligence
 - Engagement outlier analysis (top and bottom posts, with reasoning)
-- Hook taxonomy — every opening sentence classified by type and ranked by performance
+- Hook taxonomy every opening sentence classified by type and ranked by performance
 - Narrative structure breakdown (problem/solution, list, story arc, contrarian take, etc.)
 - Timing pattern analysis
 - Profile intelligence per competitor (positioning, tone, audience targeting, archetype)
 - Voice and style mapping
 - Niche crossover opportunities
-- Structured experiment queue — findings that contradict conventional LinkedIn wisdom, formatted as A/B tests
+- Structured experiment queue findings that contradict conventional LinkedIn wisdom, formatted as A/B tests
 
-#### `VALIDATION_LAYER.md` — Cross-Reference Check
+#### `VALIDATION_LAYER.md` - Cross-Reference Check
 - Flags where competitors' actual behavior agrees or contradicts general LinkedIn best-practice knowledge
 - Marks findings as data-backed vs. speculative
 
-#### `REPORT_2.md` — Your Content Strategy
+#### `REPORT_2.md` - Your Content Strategy
 - Content format strategy with engagement benchmarks
 - Posting cadence recommendation
 - Hook and CTA system
@@ -92,7 +92,7 @@ No browser automation. No Selenium. No login required.
 - Claude or any LLM that supports agentic execution
 - Basic bash environment
 
-### Step 1 — Run the Scraper (v10)
+### Step 1 - Run the Scraper (v08)
 
 Provide the following inputs when prompted:
 ```
@@ -105,7 +105,7 @@ Your goal:        e.g., "Get consulting clients"
 
 Output: `LINKEDIN_RAW_DATA_CONTAINER.md`
 
-### Step 2 — Run the Analysis (v07)
+### Step 2 - Run the Analysis (v05)
 
 Feed the raw data container into the analysis pipeline with the same niche and goal inputs.
 
@@ -122,12 +122,12 @@ REPORT_2.md           ← Your content strategy
 
 ```
 linkedin-clerk/
-├── v10-lnkdn-scrape.md          # Scraper prompt / pipeline instructions
-├── v07-lnkdn-analysis.md        # Analysis pipeline instructions
-├── LINKEDIN_RAW_DATA_CONTAINER.md   # Generated — raw scraped data
-├── REPORT_1.md                  # Generated — competitor intelligence
-├── VALIDATION_LAYER.md          # Generated — validation layer
-├── REPORT_2.md                  # Generated — your content strategy
+├── v08-lnkdn-scrape.md          # Scraper prompt / pipeline instructions
+├── v05-lnkdn-analysis.md        # Analysis pipeline instructions
+├── LINKEDIN_RAW_DATA_CONTAINER.md   # Generated raw scraped data
+├── REPORT_1.md                  # Generated competitor intelligence
+├── VALIDATION_LAYER.md          # Generated validation layer
+├── REPORT_2.md                  # Generated your content strategy
 └── README.md
 ```
 
@@ -144,14 +144,19 @@ linkedin-clerk/
 
 ## ⚠️ Notes
 
-- This tool is for **research and personal brand strategy** — use responsibly and in line with LinkedIn's and Apify's terms of service.
-- The scraper is a pure data collector — it does not interpret or editorialize. All analysis happens in Part 2.
+- This tool is for **research and personal brand strategy** use responsibly and in line with LinkedIn's and Apify's terms of service.
+- The scraper is a pure data collector it does not interpret or editorialize. All analysis happens in Part 2.
 - Results are only as good as the profiles you feed in. Choose competitors who are actively posting and have meaningful engagement data.
 
 ---
 
-## 👤 Author
+### 📁 My Portfolio
+> **[Visit My Digital Portfolio 🚀](https://www.datascienceportfol.io/adityasrinish)**
+> *Check out my other projects, including SQL challenges, N8n automation workflows, and my visual-first approach to data.*
 
-**Gyani** (Gyaneshwar Venkat Subash)  
-Building AI systems for real business outcomes.  
-[LinkedIn](#) · [YouTube](#) · [Instagram](#)
+---
+
+<p align="center">
+  <i>"Building AI systems for real business outcomes."</i><br>
+  📍 Vijayawada, India
+</p>
