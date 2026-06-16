@@ -150,6 +150,24 @@ linkedin-clerk/
 
 ---
 
+## 🌐 Connect with Me
+
+I am a Data Analytics professional passionate about turning complex data into visual stories. If you have questions about this project or want to discuss Data Analytics, Business Intelligence, or Automation—let's connect!
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/adityasrinish/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/AdityaSrinish" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:adityasrinish3107@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+---
+
 ### 📁 My Portfolio
 > **[Visit My Digital Portfolio 🚀](https://www.datascienceportfol.io/adityasrinish)**
 > *Check out my other projects, including SQL challenges, N8n automation workflows, and my visual-first approach to data.*
@@ -157,6 +175,7 @@ linkedin-clerk/
 ---
 
 <p align="center">
+  <i>"Aditya Srinish"</i><br>
   <i>"Building AI systems for real business outcomes."</i><br>
   📍 Vijayawada, India
 </p>
